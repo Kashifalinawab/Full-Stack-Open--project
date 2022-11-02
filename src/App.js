@@ -25,8 +25,8 @@ const App = () => {
     <div>
       <div>
         <Header course={course.name} />
-        <Content course={course.parts} />
-        <Total course={course.parts} />
+        <Content course={course} />
+        <Total course={course} />
       </div>
     </div>
   );
